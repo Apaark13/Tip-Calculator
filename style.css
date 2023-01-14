@@ -217,14 +217,20 @@ input[type="number"] {
   .head{
     margin: 20px;
   }
-  .tipcalulator{
+  .tipcalulator {
     width: 80%;
-  }
+    margin: 5px auto;
+    padding: 5px;
+ 
+   }
   .left,.right{
     width: 80%;
   }
+
   .right{
     height: 350px;
+    margin: 40px;
+    margin-bottom: 12px;
   }
   .reset{
     margin:20px 2px
