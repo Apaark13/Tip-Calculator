@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="head">Tip <br> Calculator</div>
+    <div class="tipcalulator">
+        <div class="left">
+            <label for="">Bill</label>
+            <input type="number" name="" id="bill" placeholder="0.00" >
+            <label for="">Select Tip</label>
+            <div class="selectTip">
+                <div class="tipselect" id="tip5" onclick="tip(5)">5%</div>
+                <div class="tipselect" id="tip10" onclick="tip(10)">10%</div>
+                <div class="tipselect active" id="tip15" onclick="tip(15)">15%</div>
+                <div class="tipselect" id="tip20" onclick="tip(20)">20%</div>
+                <div class="tipselect" id="tip30" onclick="tip(30)">30%</div>
+                <div class="custom" id="custom"> <input type="number" name="" id="customtip" placeholder="custom" > </div>
+            </div>
+
+            <label for="">No Of people</label>
+
+            <div class="people" ><label class="error" id="error" for="">
+                    <p>Can't be zero</p>
+                </label>
+                <input type="number" name="" id="no">
+            </div>
+        </div>
+        <div class="right">
+            <div class="result">
+                <div class="tip-amount">
+                    <label for="">Tip Amount  <p>/ per person</p> </label>
+                    <div class="amount" id="tipAmount">$27.53</div>
+                </div>
+
+
+                <div class="billPerPerson">
+                    <label for="">Bill <p>/ per person</p> </label>
+                    <div class="amount" id="billAmount">$27.53</div>
+                </div>
+            </div>
+
+
+            <div class="reset" id="reset" onclick="reset()">RESET</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
