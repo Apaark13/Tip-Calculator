@@ -1,6 +1,7 @@
  * {
     margin: 0;
     padding: 0;
+   
     font-family: 'Poppins', sans-serif;
     
   }
@@ -9,7 +10,7 @@
     src: url(ApaarRough-Regular[1].ttf) format('truetype');
 }
   body{
-    background-color: #c5e4e7;
+    background-color: #c5e4e7;font-size:0.9rem;
   }
 
 .head { 
@@ -229,11 +230,36 @@ input[type="number"] {
 
   .right{
     height: 350px;
-    margin: 40px;
-    margin-bottom: 12px;
+    width:-webkit-fill-available;
+    padding:20px;
+   
+    
   }
   .reset{
     margin:20px 2px
+  }
+  .tipselect{
+
+    width:75px;
+    height:50px;
+  }
+  .custom input{
+  background-color: #dcedef;
+color: #00494d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 180px;
+  padding: 0px 0px;
+  height: 60px;
+  font-size: 1.7rem;
+  
+  
+}
+  .custom{
+    margin:0;
+    
   }
 }
 
