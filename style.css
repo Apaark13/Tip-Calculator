@@ -7,7 +7,7 @@
   }
   @font-face {
     font-family: 'Apaar';
-    src: url(ApaarRough-Regular[1].ttf) format('truetype');
+    src: url("ApaarRough-Regular[1].ttf") format('truetype');
 }
   body{
     background-color: #c5e4e7;font-size:0.9rem;
@@ -20,6 +20,7 @@
     margin: 100px;
     height: 125px;
     font-size: 2rem;
+    font-family: 'Apaar','Poppins',sans-serif;
  }
 
 
